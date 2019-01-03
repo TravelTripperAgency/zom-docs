@@ -1,0 +1,14 @@
+{
+  "name": "zom-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the ZomCSS framework.",
+  "author": "Shaun Callaghan",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
